@@ -28,7 +28,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'public/dist'),
     filename: 'bundle.js',
-    publicPath: '/public/dist/',
+    publicPath: '/shri2023-perfomance-task/public/dist/',
   },
   devServer: {
     contentBase: './dist',
