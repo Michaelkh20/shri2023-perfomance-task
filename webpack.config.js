@@ -28,7 +28,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'public/dist'),
     filename: 'bundle.js',
-    publicPath: '/dist/',
+    publicPath: '/public/dist/',
   },
   devServer: {
     contentBase: './dist',
